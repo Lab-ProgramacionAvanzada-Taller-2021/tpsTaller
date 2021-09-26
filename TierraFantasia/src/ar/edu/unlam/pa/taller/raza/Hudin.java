@@ -1,10 +1,10 @@
 package ar.edu.unlam.pa.taller.raza;
 
 /*
- * Un Hudin tiene una salud inicial de 93. Utiliza un hueso, y su rango de ataque es de menos de 4 metros. Ocasiona un daÒo b·sico de 82 puntos. 
- * Cuando ataca, envenena a su enemigo y Èste pierde 4 adicionales de salud por turno. 
- * Al recibir un ataque recibe 2 veces el daÒo, ya que no lleva armadura. 
- * Cuando descansa, reduce el daÒo del siguiente ataque recibido en 2/3 de su valor neto.
+ * Un Hudin tiene una salud inicial de 93. Utiliza un hueso, y su rango de ataque es de menos de 4 metros. Ocasiona un da√±o b√°sico de 82 puntos. 
+ * Cuando ataca, envenena a su enemigo y √©ste pierde 4 adicionales de salud por turno. 
+ * Al recibir un ataque recibe 2 veces el da√±o, ya que no lleva armadura. 
+ * Cuando descansa, reduce el da√±o del siguiente ataque recibido en 2/3 de su valor neto.
  */
 
 public class Hudin extends Raza {
@@ -20,7 +20,7 @@ public class Hudin extends Raza {
 	public Hudin(Posicion posicionActual) {
 		super(RAZA,SALUD_MAX, SALUD_MAX, RANGO_ATAQUE_MIN, RANGO_ATAQUE_MAX, DANIO_BASICO, posicionActual);
 	}
-
+//   Hola es un cambio 11:59
 	@Override
 	public void atacar(Raza enemigo) {
 
