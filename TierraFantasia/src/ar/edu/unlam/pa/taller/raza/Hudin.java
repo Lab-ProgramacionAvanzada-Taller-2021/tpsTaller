@@ -20,7 +20,7 @@ public class Hudin extends Raza {
 	public Hudin(Posicion posicionActual) {
 		super(RAZA,SALUD_MAX, SALUD_MAX, RANGO_ATAQUE_MIN, RANGO_ATAQUE_MAX, DANIO_BASICO, posicionActual);
 	}
-//   Hola es un cambio 11:59
+
 	@Override
 	public void atacar(Raza enemigo) {
 
