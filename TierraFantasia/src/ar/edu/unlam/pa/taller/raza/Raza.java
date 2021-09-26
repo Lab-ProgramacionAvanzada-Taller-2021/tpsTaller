@@ -10,6 +10,7 @@ public abstract class Raza {
 	protected double danioBasico;
 	protected Posicion posicionActual;
 	protected boolean envenenado;
+	private boolean turno;
 
 	public abstract void atacar(Raza enemigo);
 
